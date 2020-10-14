@@ -17,7 +17,8 @@ class _Ep911PageState extends State<Ep911Page> {
         Image(image: AssetImage('assets/images/ep91 (3).JPG'),),
         Image(image: AssetImage('assets/images/ep91 (4).JPG'),),
         Image(image: AssetImage('assets/images/ep91 (5).JPG'),),
-        Image(image: AssetImage('assets/images/ep91 (6).JPG'),),                                                                                                        
+        Image(image: AssetImage('assets/images/ep91 (6).JPG'),),
+                                                                                                        
       ],),
       
     );

@@ -5,7 +5,7 @@ import '../models/RestCustomerModel.dart';
 //==================================================
 // CLASS TABLE MODEL
 //==================================================
-class TableModel{
+class RestTableModel{
 //==================================================
 // 1) CLASS PROPERTY
 //==================================================
@@ -18,7 +18,7 @@ final RestCustomerModel customerInfo;
 //==================================================
 // 2) CONSTUCTURE
 //==================================================
-TableModel({
+RestTableModel({
   this.tableNo,
   this.orderNo,
   this.orderStatus,
@@ -42,9 +42,9 @@ Map<String, dynamic> toFireStore(){
 //========================================================
 // 4) FACTORY METHOD (FROMFILESTORE) TO GENERATE  OBJECT
 //========================================================
-  factory TableModel.fromFireStore(DocumentSnapshot doc){
+  factory RestTableModel.fromFireStore(DocumentSnapshot doc){
     Map data = doc.data;
-    return TableModel(
+    return RestTableModel(
       tableNo: data['tableNo'],
       orderNo: data['orderNo'],
       orderStatus: data['orderStatus'],

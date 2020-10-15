@@ -132,14 +132,19 @@ class EP80OrderService{
 //==================================================     
     Firestore.instance.collection('TT_EP80_ORDERS').document(orderNo).collection('listOrderItemInfo').add(orderItemInfo.toFireStore()).then((value) {
         print('Insert Order Item Completed: ${orderItemInfo.toFireStore()}');
+
+
+
+
+
+
+
     }).catchError((error){
         print('Insert Order Item Error: $error');
     });
   }
 
-
 }
-
 //==================================================
 // CLASS TABLE INFO (EP75)
 //==================================================

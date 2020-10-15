@@ -10,7 +10,7 @@ class _Ep941PageState extends State<Ep941Page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('EP94-1: Concept: Service Class (Business Logic) for manipulate database with model',style: TextStyle(fontSize: 14),maxLines: 2,),),      
+      appBar: AppBar(title: Text('EP94-1:  Coding Menu and Table Service Classes linking DB and mapping odel (Business Logic)',style: TextStyle(fontSize: 14),maxLines: 2,),),      
       body: ListView(children: <Widget>[
         Image(image: AssetImage('assets/images/ep94 (1).JPG'),),
         Image(image: AssetImage('assets/images/ep94 (2).JPG'),),
